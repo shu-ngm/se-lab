@@ -14,7 +14,7 @@ public class TorpedoStore {
 
   private int torpedoCount = 0;
 
-  // reuseable
+  // define here to make generator reuseable
   private Random generator = new Random();
 
   public TorpedoStore(int numberOfTorpedos) {
